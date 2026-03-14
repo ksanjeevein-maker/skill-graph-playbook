@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Skill Graphs"
+  short_description: "Design linked markdown skill graphs"
+  default_prompt: "Use $build-skill-graphs to design a small, navigable skill graph for my domain."
