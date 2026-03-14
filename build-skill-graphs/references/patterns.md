@@ -58,6 +58,7 @@ Use the smallest layout that supports the work.
 references/example-graph/
   knowledge-work.md
   graph-structure-moc.md
+  hybrid-architecture-moc.md
   atomic-note.md
 ```
 

@@ -2,7 +2,7 @@
 
 `skill-graph-playbook` is a small, portable repository for agents that need to design markdown skill graphs instead of stuffing everything into one `SKILL.md`.
 
-The repo includes one installable skill, `build-skill-graphs/`, plus templates, patterns, anti-patterns, and a tiny example graph you can adapt.
+The repo includes one installable skill, `build-skill-graphs/`, plus templates, patterns, anti-patterns, hybrid architecture guidance, and a small example graph you can adapt.
 
 ## Why This Exists
 
@@ -28,18 +28,49 @@ skill-graph-playbook/
       templates.md
       patterns.md
       anti-patterns.md
+      hybrid-architecture.md
       example-graph/
         knowledge-work.md
         graph-structure-moc.md
         agent-cognition-moc.md
+        hybrid-architecture-moc.md
         progressive-disclosure.md
         links-carry-reasons.md
         mocs-orient-attention.md
+        markdown-stores-methods.md
+        typed-stores-hold-live-state.md
+        maintenance-keeps-mocs-trustworthy.md
 ```
 
 ## Install
 
-Copy the `build-skill-graphs/` folder into your agent's skills directory, or install it from GitHub by path if your platform supports skill repos.
+### Codex
+
+If the built-in skill installer is available, install directly from GitHub:
+
+```bash
+python "$CODEX_HOME/skills/.system/skill-installer/scripts/install-skill-from-github.py" --repo ksanjeevein-maker/skill-graph-playbook --path build-skill-graphs
+```
+
+### Antigravity / Gemini CLI
+
+Copy the `build-skill-graphs/` folder into your workspace or global skills directory, such as `.agent/skills/` or `~/.gemini/antigravity/skills/`, then restart the agent session.
+
+### Manual
+
+Clone the repo and copy only the skill folder if you prefer:
+
+```bash
+git clone https://github.com/ksanjeevein-maker/skill-graph-playbook.git
+```
+
+## Use It
+
+Example prompts:
+
+- `Use $build-skill-graphs to turn this oversized SKILL.md into a small graph.`
+- `Use $build-skill-graphs to design an entrypoint, two MOCs, and five atomic notes for a legal workflow domain.`
+- `Use $build-skill-graphs to decide what belongs in markdown versus SQLite for this company knowledge system.`
 
 ## Inspiration
 

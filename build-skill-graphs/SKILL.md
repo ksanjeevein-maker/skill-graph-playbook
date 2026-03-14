@@ -74,6 +74,7 @@ Read these files as needed:
 - `references/templates.md` for entrypoint, MOC, and node templates
 - `references/patterns.md` for traversal rules, note types, and repo layouts
 - `references/anti-patterns.md` when the graph feels too big, too flat, or too stale
+- `references/hybrid-architecture.md` when the markdown versus database boundary is unclear
 - `references/example-graph/knowledge-work.md` for a small working example
 
 ## Delivery Pattern
