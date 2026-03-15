@@ -75,7 +75,13 @@ Read these files as needed:
 - `references/patterns.md` for traversal rules, note types, and repo layouts
 - `references/anti-patterns.md` when the graph feels too big, too flat, or too stale
 - `references/hybrid-architecture.md` when the markdown versus database boundary is unclear
+- `references/decision-guide.md` when the main question is whether a graph is needed at all
+- `references/migration-playbook.md` when splitting one oversized skill into a graph
+- `references/review-checklist.md` when checking whether the graph is ready to use
+- `references/maintenance-checklist.md` when the graph is starting to drift
+- `references/naming-conventions.md` when note and file names are getting muddy
 - `references/example-graph/knowledge-work.md` for a small working example
+- `references/example-graph-business-ops/operations-knowledge.md` for a business-operations example
 
 ## Delivery Pattern
 

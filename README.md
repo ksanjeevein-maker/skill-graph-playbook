@@ -2,7 +2,7 @@
 
 `skill-graph-playbook` is a small, portable repository for agents that need to design markdown skill graphs instead of stuffing everything into one `SKILL.md`.
 
-The repo includes one installable skill, `build-skill-graphs/`, plus templates, patterns, anti-patterns, hybrid architecture guidance, and a small example graph you can adapt.
+The repo includes one installable skill, `build-skill-graphs/`, plus templates, patterns, anti-patterns, hybrid architecture guidance, and example graphs you can adapt.
 
 ## Who This Is For
 
@@ -101,6 +101,13 @@ If you want the fastest path through the repo, read in this order:
 5. `build-skill-graphs/references/example-graph/knowledge-work.md`
 
 That sequence gives you the framing, the construction pattern, the common traps, and a concrete example graph.
+
+Useful follow-ons:
+
+- `build-skill-graphs/references/decision-guide.md`
+- `build-skill-graphs/references/migration-playbook.md`
+- `build-skill-graphs/references/review-checklist.md`
+- `build-skill-graphs/references/example-graph-business-ops/operations-knowledge.md`
 
 ## Use It
 
